@@ -1,0 +1,10 @@
+#include <windows.h>
+
+// Dialog template for channel filtering
+CHANNEL_DIALOG DIALOG 0, 0, 300, 400
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Channel Filter Settings"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    // Empty dialog shell - controls are created dynamically
+END
